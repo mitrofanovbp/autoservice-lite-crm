@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://db:5432/autoservice_lite}
+    username: ${SPRING_DATASOURCE_USERNAME:autoservice}
+    password: ${SPRING_DATASOURCE_PASSWORD:autoservice}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: false

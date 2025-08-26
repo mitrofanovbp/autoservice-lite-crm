@@ -1,0 +1,43 @@
+# === Java / Maven ===
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+
+# === Maven wrapper ===
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper-downloader.jar
+
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# === VS Code ===
+.vscode/
+
+# === OS junk ===
+.DS_Store
+Thumbs.db
+
+# === Docker ===
+/pgdata
+docker-compose.override.yml
+*.pid
+
+# === Logs & temp ===
+*.log
+logs/
+*.tmp
+*.swp
+
+# === Environment / secrets ===
+.env
+.env.local
+.env.*.local
